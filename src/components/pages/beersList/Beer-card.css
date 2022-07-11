@@ -1,0 +1,34 @@
+.list-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 150px;
+    margin-bottom: 50px;
+}
+.list-item h5 {
+    color: #333;
+    font-size: 1.1em;
+}
+.list-item p {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 0.5rem
+}
+
+/*mediaqueries*/
+
+@media(min-width: 768px) {
+    .list-item {
+       max-height: 200px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .list-item {
+        max-height: 300px
+    }
+}

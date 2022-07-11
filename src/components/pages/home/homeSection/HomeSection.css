@@ -1,0 +1,34 @@
+.hero {
+    background-image: url('./images/beer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-color: #FFF;
+    min-height: 90vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-link {
+    color:  #FFF;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    border: 1px solid  #FFF;
+    font-weight: 100;
+    display: block;
+    width: 220px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5em;
+}
